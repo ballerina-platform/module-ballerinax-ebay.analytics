@@ -2,13 +2,12 @@
 
 The `ballerinax/ebay.analytics` connector provides practical examples illustrating usage in various scenarios.
 
-[//]: # (TODO: Add examples)
-1. 
-2. 
+1. [Seller standards review](./seller_standards_review/seller_standards_review.md) - List standards profiles and inspect the current cycle of each program.
+2. [Traffic performance report](./traffic_performance_report/traffic_performance_report.md) - Pull a daily traffic report and check the customer service rating.
 
 ## Prerequisites
 
-[//]: # (TODO: Add prerequisites)
+Push the connector to the local repository with `bal pack && bal push --repository=local` from the `ballerina` directory, and provide eBay OAuth credentials (`clientId`, `clientSecret`, `refreshToken`, `refreshUrl`) in a `Config.toml` in the example directory.
 
 ## Running an example
 
